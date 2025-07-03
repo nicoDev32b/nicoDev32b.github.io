@@ -18,34 +18,34 @@
       /* Ajusta este valor según necesites */
 
     }
-    }
+  }
 
-    .card-container p {
-      text-align: left;
-      width: 100%;
-      /* asegura que ocupe todo el ancho disponible dentro del container */
-    }
+  .card-container p {
+    text-align: left;
+    width: 100%;
+    /* asegura que ocupe todo el ancho disponible dentro del container */
+  }
 
-    .img-container img {
-      width: 100%;
-      height: auto;
-      object-fit: contain;
-      border-radius: 8px;
-      padding: 4px;
-      background-color: #f8f9fa;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      transition: transform 0.2s ease-in-out;
-    }
+  .img-container img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
 
-    .img-container img:hover {
-      transform: scale(1.2);
-    }
+  .img-container img:hover {
+    transform: scale(1.2);
+  }
 
-    .img-container {
-      display: flex;  
-      flex-wrap: wrap;
-      justify-content: center;
-    }
+  .img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 </style>
 
 <head>
@@ -119,6 +119,29 @@
                 <div class="row">
                   <!-- Primer proyecto -->
                   <div class="col-md-6">
+                    <a href="https://kedafdev.itch.io/neith" class="black-image-project-hover" target="_blank">
+                      <img src="./assets/images/neith.png" alt="Neith: Cenizas de una devoción"
+                        class="img-responsive project-image">
+                    </a>
+                    <div class="card-container d-flex flex-column">
+                      <h4>En Desarrollo</h4>
+                      <h3>Neith: Cenizas de una devoción</h3>
+                      <p>Metroidvania 2D con atmósfera poética y oscura donde Neith, una caza-recompensas, explora
+                        territorios interconectados, enfrenta jefes y toma decisiones que afectan su apariencia,
+                        habilidades y humanidad.
+                      </p>
+                      <p><strong style="font-size: 12px;">Contribución:</strong></p>
+                      <p>Líder técnico y programador principal, encargado del diseño del sistema de combate, control del
+                        jugador, mecanicas, progresión, menús, guardado, y soporte al equipo en Unity durante todo el
+                        desarrollo.
+                      </p>
+                      <div class="mt-auto">
+                        <a href="https://kedafdev.itch.io/neith" class="btn btn-default" target="_blank">Jugar!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Segundo proyecto -->
+                  <div class="col-md-6">
                     <a href="https://www.youtube.com/watch?v=OKFV2odwmr4" class="black-image-project-hover"
                       target="_blank">
                       <img src="./assets/images/sawvr.png" alt="Simulador VR" class="img-responsive project-image">
@@ -137,30 +160,6 @@
                       <div class="mt-auto">
                         <a href="https://www.youtube.com/watch?v=OKFV2odwmr4" class="btn btn-default"
                           target="_blank">Ver en Youtube!</a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Segundo proyecto -->
-                  <div class="col-md-6">
-                    <a href="https://juanin96.itch.io/howl-of-liberty" class="black-image-project-hover"
-                      target="_blank">
-                      <img src="./assets/images/howlof.png" alt="Howl Of Liberty" class="img-responsive project-image">
-                    </a>
-                    <div class="card-container d-flex flex-column">
-                      <h4>GameJam (3 dias)</h4>
-                      <h3>Howl Of Liberty</h3>
-                      <p>Videojuego roguelike 2D en Unity donde una mujer lobo escapa de una prisión humana, explora
-                        mapas procedurales y absorbe habilidades de enemigos únicos para avanzar en su viaje.
-                      </p>
-                      <p><strong style="font-size: 12px;">Contribución:</strong></p>
-                      <p>Project manager durante la intensa game jam de 3 días. Lideré la coordinación del equipo,
-                        participé activamente en todas las áreas del desarrollo y diseñé mecánicas clave junto con
-                        power-ups que
-                        marcaron la diferencia en la jugabilidad.
-                      </p><br>
-                      <div class="mt-auto">
-                        <a href="https://juanin96.itch.io/howl-of-liberty" class="btn btn-default"
-                          target="_blank">Jugar!</a>
                       </div>
                     </div>
                   </div>
@@ -189,21 +188,26 @@
                     </div>
                   </div>
                   <div class="col-md-6">
-                    <a title="" class="black-image-project-hover" target="_blank">
-                      <img src="./assets/images/repair.jpg" alt="" class="img-responsive">
+                    <a href="https://juanin96.itch.io/howl-of-liberty" class="black-image-project-hover"
+                      target="_blank">
+                      <img src="./assets/images/howlof.png" alt="Howl Of Liberty" class="img-responsive project-image">
                     </a>
-                    <div class="card-container card-container-lg">
-                      <h4>En Mantenimiento</h4>
-                      <h3>TheBestFighter</h3>
-                      <p>Videojuego de lucha 2d que evoluciona sus mecanicas a medida que avanzas en el progreso.
-                        Proximamente en este portafolio (Está en mantenimiento)</p>
-                      <p><strong style="font-size: 12px;">Contribución:</strong></p>
-                      <p>Creador del concepto y desarrollador completo del prototipo en RPGMaker. Diseñé mecánicas
-                        basadas en la interacción con menús y objetos,
-                        implementé el sistema de combate y escribí los textos para reforzar el humor y el giro del
-                        tutorial como núcleo del juego.
+                    <div class="card-container d-flex flex-column">
+                      <h4>GameJam (3 dias)</h4>
+                      <h3>Howl Of Liberty</h3>
+                      <p>Videojuego roguelike 2D en Unity donde una mujer lobo escapa de una prisión humana, explora
+                        mapas procedurales y absorbe habilidades de enemigos únicos para avanzar en su viaje.
                       </p>
-                      <!-- <a href="https://nicotinadev.itch.io/absorcion" class="btn btn-default" target="_blank">Jugar!</a> -->
+                      <p><strong style="font-size: 12px;">Contribución:</strong></p>
+                      <p>Project manager durante la intensa game jam de 3 días. Lideré la coordinación del equipo,
+                        participé activamente en todas las áreas del desarrollo y diseñé mecánicas clave junto con
+                        power-ups que
+                        marcaron la diferencia en la jugabilidad.
+                      </p><br>
+                      <div class="mt-auto">
+                        <a href="https://juanin96.itch.io/howl-of-liberty" class="btn btn-default"
+                          target="_blank">Jugar!</a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -306,47 +310,36 @@
               <div class="item">
                 <div class="row">
                   <div class="col-md-6">
-                    <a href="https://nicotinadev.itch.io/desafio3xd" class="black-image-project-hover" target="_blank">
-                      <img src="./assets/images/globo.png" alt="Image" class="img-responsive">
+                    <a title="" class="black-image-project-hover" target="_blank">
+                      <img src="./assets/images/repair.jpg" alt="" class="img-responsive">
                     </a>
-                    <div class="card-container">
-                      <h4>Terminado</h4>
-                      <h3>Desafio 3 Unity Learn</h3>
-                      <p>Reto finalizado del curso Unity Learn: controla un globo que evita obstáculos mientras recoge
-                        objetos flotantes. Demuestra dominio de físicas 3D, sistemas de colisión y recolección de items.
+                    <div class="card-container card-container-lg">
+                      <h4>En Mantenimiento</h4>
+                      <h3>TheBestFighter</h3>
+                      <p>Videojuego de lucha 2d que evoluciona sus mecanicas a medida que avanzas en el progreso.
+                        Proximamente en este portafolio (Está en mantenimiento)</p>
+                      <p><strong style="font-size: 12px;">Contribución:</strong></p>
+                      <p>Creador del concepto y desarrollador completo del prototipo en RPGMaker. Diseñé mecánicas
+                        basadas en la interacción con menús y objetos,
+                        implementé el sistema de combate y escribí los textos para reforzar el humor y el giro del
+                        tutorial como núcleo del juego.
                       </p>
-                      <a href="https://nicotinadev.itch.io/desafio3xd" class="btn btn-default"
-                        target="_blank">Jugar!</a>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <a href="https://nicotinadev.itch.io/desafio4" class="black-image-project-hover" target="_blank">
-                      <img src="./assets/images/football.png" alt="Image" class="img-responsive">
-                    </a>
-                    <div class="card-container">
-                      <h4>Terminado</h4>
-                      <h3>Desafio 4 Unity Learn</h3>
-                      <p>Juego de defensa donde proteges tu portería de balones enemigos. Usa un power-up para
-                        empujarlos con más fuerza.
-                        Proyecto terminado que demuestra mecánicas de física y sistemas de power-ups en Unity.
-                      </p>
-                      <a href="https://nicotinadev.itch.io/desafio4" class="btn btn-default" target="_blank">Jugar!</a>
+                      <button class="btn btn-default" disabled>En Mantenimiento</button>
                     </div>
                   </div>
                 </div>
-                <!--/row-->
               </div>
-              <!--/item-->
             </div>
-            <!--/carousel-inner-->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
           </div>
-          <!--/myCarousel-->
+          <!--/carousel-inner-->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
         </div>
+        <!--/myCarousel-->
       </div>
     </div>
+  </div>
   </div>
 
   <body class="bg-light py-3">
